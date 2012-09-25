@@ -8,9 +8,11 @@ Gem::Specification.new do |gem|
   gem.version       = Nesta::Plugin::Smartmeta::VERSION
   gem.authors       = ["Joshua Mervine"]
   gem.email         = ["joshua@mervine.net"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{ 
+    Generate http meta data from existing data, when not specified. 
+  }
+  gem.summary       = gem.descrition
+  gem.homepage      = "http://www.rubyops.net/nesta/nesta-plugin-smartmeta"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
