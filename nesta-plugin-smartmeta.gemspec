@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
     Generate http meta data from existing data, when not specified. 
   }
   gem.summary       = gem.descrition
-  gem.homepage      = "http://www.rubyops.net/nesta/nesta-plugin-smartmeta"
+  gem.homepage      = "https://github.com/jmervine/nesta-plugin-smartmeta"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
